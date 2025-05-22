@@ -21,7 +21,7 @@ RRROCKET_CMD = os.getenv("RRROCKET_CMD", "rrrocket")
 DATABASE_URL = f"sqlite+aiosqlite:///{BASE_DIR / 'rocketstats.db'}"
 
 # Discord bot
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN", "MTM2NTM3OTc1OTU0NjA0NDYwOA.G5wAs4.70mnBu3Jt0Qp-ZRRzgqhgvJXPpa_Id0u8UkY70")
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 DM_TIMEOUT = 300  # sec
 BATCH_SIZE = 5
 MAX_WINDOW = timedelta(minutes=45)
